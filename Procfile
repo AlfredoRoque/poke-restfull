@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Dserver.port=$PORT -jar target/pokemon-*.jar
+web: java $JAVA_OPTS -jar server/jetty-runner.jar --port $PORT target/*.war
