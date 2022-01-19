@@ -28,7 +28,6 @@ public class PokemonController {
 
 	@Autowired
 	PokemonService cService;
-	
 	@GetMapping(path = "/abilities/{nombre}")
 	@ResponseStatus(HttpStatus.OK)
 	public AbilityModel getAbilities(@PathVariable("nombre") String nombre){
