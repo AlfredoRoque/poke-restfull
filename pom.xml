@@ -14,7 +14,9 @@
 	<packaging>war</packaging>
 	<name>pokemon</name>
 	<description>Pokemon API REST</description>
-	
+	<properties>
+		<java.version>11</java.version>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
